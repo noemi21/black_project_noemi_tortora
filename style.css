@@ -1,0 +1,19 @@
+.bgNav {
+    background-color: black;
+}
+
+.brightness {
+    filter: brightness(0.25);
+    -webkit-filter: brightness(0.25);
+  }
+
+  
+.text-block {
+    position: absolute;
+    bottom: 400px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
