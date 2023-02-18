@@ -32,8 +32,15 @@
 
 .line-1 {
     height: 1px;
+
     background: #2B9DF4;
   }
+
+.line-2 {
+    height: 1px;
+    width: 400px ;
+    background: #2B9DF4;
+}
 
 .textBasso {
     padding-top: 350px ;
@@ -44,3 +51,18 @@
     padding-top: 120px ;
 padding-right: 300px;
 }
+
+
+.item-center {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    align-items: center;
+    justify-items: center;
+  }
+
+
+  .text-block2  {
+    padding-top: 100px ;
+    padding-right: 300px;
+  }
