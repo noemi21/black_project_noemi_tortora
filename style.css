@@ -1,12 +1,12 @@
+/* font-family: 'Jura', sans-serif; */
 /* font-family: 'Orbitron', sans-serif; */
-
 .bgNav {
     background-color: black;
 }
 
 .brightness {
-    filter: brightness(0.25);
-    -webkit-filter: brightness(0.25);
+    filter: brightness(0.19);
+    -webkit-filter: brightness(0.19);
   }
 
 .text-block {
@@ -26,7 +26,7 @@
 }
 
 .text {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Jura', sans-serif;
 }
 
 
@@ -72,4 +72,66 @@ margin-left: 250px;
   .text-block2  {
     padding-top: 100px ;
     padding-right: 300px;
+  }
+
+
+
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #2B9DF4;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #ffffff00;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 500px;
+  margin-top: 10px;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+
+.brightness1 {
+    filter: brightness(0.50);
+    -webkit-filter: brightness(0.50);
+  }
+
+.social-icon { 
+    width: 20px;
+    height: 20px; 
+    margin: 0 200px 10px 0; }
+
+.social-icon:last-child { 
+    margin-right: 0; 
+}
+
+.hr2 {
+    border: 0;
+    height: 5px;
+    width: 800px;
+    margin-left: 500px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #2B9DF4, rgba(0, 0, 0, 0));
   }
