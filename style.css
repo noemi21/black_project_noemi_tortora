@@ -52,12 +52,19 @@
 padding-right: 300px;
 }
 
+.centro-col {
+align-items: center;
+margin-left: 300px;
+}
+
+.textii {
+    margin-left: 30px;
+}
 
 .item-center {
     display: grid;
     grid-auto-flow: column;
     gap: 4px;
-    align-items: center;
     justify-items: center;
   }
 
